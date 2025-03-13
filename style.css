@@ -31,24 +31,21 @@ nav ul li a.active {
   border-bottom: 2px solid #007bff;
 }
 
-.skills-list {
+.skills-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column; 
+  align-items: center; 
   gap: 10px; 
 }
-
-.skills-list li {
-  background: rgba(255, 255, 255, 0.2); 
-  color: white; 
-  padding: 10px 20px;
+.skill-item {
+  background:  rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 10px 15px;
   border-radius: 8px;
-  font-weight: bold;
-  width: 50%; 
+  width: 50%;
   text-align: center;
-  text-decoration: none;
 }
+
 
 
 section {
